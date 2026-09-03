@@ -26,7 +26,7 @@
 <rect x="260" y="96" width="440" height="14" fill="#161b22" rx="3"/>
 <rect x="260" y="96" width="418.0" height="14" fill="url(#barGrad)" rx="3"/>
 <text x="708" y="110.0" fill="#00ff88" font-size="12" font-weight="bold">95%</text>
-<text x="246" y="144.0" fill="#c9d1d9" font-size="12.5" text-anchor="end">Directory Enumeration (FFUF/Gobuster)</text>
+<text x="246" y="144.0" fill="#c9d1d9" font-size="12.5" text-anchor="end">Directory Enumeration</text>
 <rect x="260" y="130" width="440" height="14" fill="#161b22" rx="3"/>
 <rect x="260" y="130" width="418.0" height="14" fill="url(#barGrad)" rx="3"/>
 <text x="708" y="144.0" fill="#00ff88" font-size="12" font-weight="bold">95%</text>
@@ -46,7 +46,7 @@
 <rect x="260" y="266" width="440" height="14" fill="#161b22" rx="3"/>
 <rect x="260" y="266" width="374.0" height="14" fill="url(#barGrad)" rx="3"/>
 <text x="708" y="280.0" fill="#00ff88" font-size="12" font-weight="bold">85%</text>
-<text x="246" y="314.0" fill="#c9d1d9" font-size="12.5" text-anchor="end">Cloud Security (Firebase)</text>
+<text x="246" y="314.0" fill="#c9d1d9" font-size="12.5" text-anchor="end">Cloud Security</text>
 <rect x="260" y="300" width="440" height="14" fill="#161b22" rx="3"/>
 <rect x="260" y="300" width="374.0" height="14" fill="url(#barGrad)" rx="3"/>
 <text x="708" y="314.0" fill="#00ff88" font-size="12" font-weight="bold">85%</text>
