@@ -153,7 +153,7 @@ Port/Service Enumeration · Server Hardening
 3. Pull every user record straight from the Admin SDK
 4. Flip one value in `localStorage` and walk into the admin panel (F-02)
 5. Hit the `dashboard_stats` endpoint for attendance data on any company (F-06)
-6. Browse the uploads folder, download all 685 face photos (F-04)
+6. Browse the uploads folder, download all 1365+ face photos (F-04)
 7. Read the error logs for the DB schema, dev paths, GPS data (F-05)
 8. Firebase FCM could be abused to push fake notifications to every user
 9. WHM login was weak enough for brute-force, full server takeover (F-07)
