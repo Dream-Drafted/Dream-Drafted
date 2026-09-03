@@ -72,7 +72,6 @@ Port/Service Enumeration · Server Hardening
 <img src="assets/skills-chart.svg" width="100%" alt="Skill proficiency chart"/>
 </div>
 
-<sub>Self-assessed proficiency, not a certified measurement.</sub>
 
 <br>
 
