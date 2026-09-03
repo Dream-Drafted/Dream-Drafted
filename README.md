@@ -325,8 +325,8 @@ Port/Service Enumeration · Server Hardening
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Dream-Drafted&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00ff88&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dream-Drafted&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=10" alt="Top Languages"/>
+<img height="160" src="https://github-readme-stats-phi-red-22.vercel.app/api?username=Dream-Drafted&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00ff88&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+<img height="160" src="https://github-readme-stats-phi-red-22.vercel.app/api/top-langs/?username=Dream-Drafted&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=10" alt="Top Languages"/>
 
 </div>
 
