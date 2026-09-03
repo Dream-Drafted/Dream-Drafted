@@ -24,7 +24,7 @@
 
 I'm a hands-on cybersecurity researcher and penetration tester. I find real vulnerabilities in production systems, verify every one by hand, and report them the responsible way. By day I teach **Biology (B.Sc. Zoology)**; security is the discipline I built myself, **8 years** of self-taught, hands-on work with no formal certification. Everything documented here was learned by doing it, not by reading about it.
 
-I care about **offensive-defensive development** — understanding how an attack works closely enough to build a real defense from it and every tool I release stays **free**, needing no paid API and no money to use, because that's the wall I hit when I was learning.
+I care about **offensive-defensive development** by understanding how an attack works closely enough to build a real defense from it and every tool I release stays **free**, needing no paid API and no money to use, because that's the wall I hit when I was learning.
 
 <br>
 
@@ -293,9 +293,9 @@ Port/Service Enumeration · Server Hardening
 | Purpose | Modular framework for QR-login session hijacking research, built beyond the classic (now largely outdated) QRLJacking technique |
 | Tech | Python |
 | Environment | Sandboxed, localhost-only |
-| Context | Offline research — no real platform ever touched |
+| Context | Offline research - no real platform ever touched |
 
-- Modular, stable architecture — more advanced than a basic QRLJacking-style setup
+- Modular, stable architecture, more advanced than a basic Jacking-style setup
 - Models the risk that can hit QR-based logins on apps like WhatsApp Web, Telegram, Discord, and Signal if built carelessly
 - Named "Shield" on purpose to understand the attack well enough and help others to defend against it
 
