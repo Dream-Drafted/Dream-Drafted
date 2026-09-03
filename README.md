@@ -22,9 +22,9 @@
 
 ## 🔐 Identity
 
-I'm a hands-on cybersecurity researcher and penetration tester — I find real vulnerabilities in production systems, verify every one by hand, and report them the responsible way. By day I teach **Biology (B.Sc. Zoology)**; security is the discipline I built myself, **8 years** of self-taught, hands-on work with no formal certification. Everything documented here was learned by doing it, not by reading about it.
+I'm a hands-on cybersecurity researcher and penetration tester. I find real vulnerabilities in production systems, verify every one by hand, and report them the responsible way. By day I teach **Biology (B.Sc. Zoology)**; security is the discipline I built myself, **8 years** of self-taught, hands-on work with no formal certification. Everything documented here was learned by doing it, not by reading about it.
 
-I care about **offensive-defensive development** — understanding how an attack works closely enough to build a real defense from it — and every tool I release stays **free**, needing no paid API and no money to use, because that's the wall I hit when I was learning.
+I care about **offensive-defensive development** — understanding how an attack works closely enough to build a real defense from it and every tool I release stays **free**, needing no paid API and no money to use, because that's the wall I hit when I was learning.
 
 <br>
 
@@ -60,7 +60,7 @@ Port/Service Enumeration · Server Hardening
 </table>
 
 **Methodology:** OWASP Top 10 · OWASP WSTG v4.2 · CVSS v3.1 Scoring · Responsible Disclosure
-**Verification standard:** tools for speed, my own eyes on every single finding — that's how false alarms stay near zero.
+**Verification standard:** tools for speed, my own eyes on every single finding, that's how false alarms stay near zero.
 
 <br>
 
@@ -101,7 +101,7 @@ Port/Service Enumeration · Server Hardening
 | F-01 | Firebase Admin SDK private key sitting out in the open | 10.0 | 🔴 Critical |
 | F-02 | Admin panel login could be skipped from the browser | 9.8 | 🔴 Critical |
 | F-03 | Directory listing exposed 30+ backend PHP files | 8.6 | 🟠 High |
-| F-04 | 685 face photos, no login needed to view them | 7.8 | 🟠 High |
+| F-04 | 1365+ face photos, no login needed to view them | 7.8 | 🟠 High |
 | F-05 | Error logs leaking server paths & dev setup | 7.2 | 🟠 High |
 | F-06 | IDOR — anyone could pull employee attendance data | 6.5 | 🟡 Medium |
 | F-07 | WHM root admin panel open to the public internet | 6.8 | 🟡 Medium |
@@ -109,7 +109,7 @@ Port/Service Enumeration · Server Hardening
 | F-09 | 30+ API endpoints with zero authentication | 5.4 | 🟡 Medium |
 | F-10 | Missing basic HTTP security headers | 3.7 | 🟢 Low |
 
-<sub>Calculated from the 10 documented findings — Mean CVSS: 7.17 · Median: 7.0 · Min: 3.7 · Max: 10.0</sub>
+<sub>Calculated from the 10 documented findings: Mean CVSS: 7.17 · Median: 7.0 · Min: 3.7 · Max: 10.0</sub>
 
 <details>
 <summary><b>🔎 Critical findings, the full story</b></summary>
@@ -126,14 +126,14 @@ Port/Service Enumeration · Server Hardening
 - That gets you employee PII, salaries, attendance history, and admin controls
 
 **Face photos exposed**
-- 685 employee face photos, downloadable in bulk with a plain `wget` command, no login
+- 1365+ employee face photos, downloadable in bulk with a plain `wget` command, no login
 - This alone counts as a notifiable data breach under India's DPDP Act, 2023
 
 **Source code & server info leaking**
 - Directory listing on 30+ PHP files; error logs spilling dev file paths, stack traces, even GPS/address data
 
 **IDOR**
-- One dashboard endpoint returned attendance stats for any company code you typed in — no auth check at all
+- One dashboard endpoint returned attendance stats for any company code you typed in, no auth check at all
 - Tested against real data (24 employees); scales to every tenant on the platform
 
 **Server itself was wide open**
@@ -187,7 +187,7 @@ Port/Service Enumeration · Server Hardening
 <br>
 
 - One endpoint built its database query carelessly, letting it reach far past what it was supposed to touch
-- Any logged-in user could pull data from tables well outside their own account — basically full read access to the entire database (student/staff records, academic and attendance data, internal messages)
+- Any logged-in user could pull data from tables well outside their own account basically full read access to the entire database (student/staff records, academic and attendance data, internal messages)
 - Confirmed the impact with careful, targeted queries. No mass downloads, nothing kept
 - Reported the issue privately with a fix guide attached. Now **patched and confirmed working**
 - Nothing beyond what was needed to prove the bug was ever saved
@@ -297,7 +297,7 @@ Port/Service Enumeration · Server Hardening
 
 - Modular, stable architecture — more advanced than a basic QRLJacking-style setup
 - Models the risk that can hit QR-based logins on apps like WhatsApp Web, Telegram, Discord, and Signal if built carelessly
-- Named "Shield" on purpose — understand the attack well enough to help others defend against it
+- Named "Shield" on purpose to understand the attack well enough and help others to defend against it
 
 </td>
 </tr>
@@ -307,9 +307,9 @@ Port/Service Enumeration · Server Hardening
 <summary><b>🔬 QR-SHIELD, what I'm researching next</b></summary>
 <br>
 
-**Digging into:** QR encoding/decoding flaws, the timing windows during login, session validation bypass, how different platforms implement QR login differently, real-world resilience testing — all inside a local, offline lab, never against a live service.
+**Digging into:** QR encoding/decoding flaws, the timing windows during login, session validation bypass, how different platforms implement QR login differently, real-world resilience testing; all inside a local, offline lab, never against a live service.
 
-**Not doing:** another generic vulnerability scanner or a catch-all security suite — staying focused on this one problem.
+**Not doing:** another generic vulnerability scanner or a catch-all security suite - staying focused on this one problem.
 
 **Approach:** understand modern QR login deeply first, build tools for local and authorized research, then share what's learned so others can build better defenses.
 
@@ -359,7 +359,7 @@ Port/Service Enumeration · Server Hardening
 
 <div align="center">
 
-*Every piece of security research here is done with one goal: protect users and make the organizations I test safer.*
+*Every piece of security research here is done with one goal to protect users and tomake the organizations I test safer.*
 
 </div>
 
